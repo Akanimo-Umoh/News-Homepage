@@ -1,0 +1,20 @@
+:root {
+    --Primary-Soft-orange: hsl(35, 77%, 62%);
+    --Primary-Soft-red: hsl(5, 85%, 63%);
+
+    --Neutral-Off-white: hsl(36, 100%, 99%);
+    --Neutral-Grayish-blue: hsl(233, 8%, 79%);
+    --Neutral-Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Neutral-Very-dark-blue: hsl(240, 100%, 5%);
+
+    --Weight4: 400;
+    --Weight7: 700;
+    --Weight8: 800;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+}
+

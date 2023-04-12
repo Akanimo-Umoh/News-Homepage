@@ -16,17 +16,18 @@
 </head>
 <body>
   <nav>
-    <div>
+    <div class="nav_container">
       <div class="primary_nav">
         <a class="logo" href=""><img src="assets/images/logo.svg" alt=""></a>
       </div>
 
       <div class="secondary_nav">
-        <img src="assets/images/icon-menu.svg" alt="">
+        <img id="open" class="open_btn" src="assets/images/icon-menu.svg" alt="">
         <div class="dropdown_nav">
-
-          <img src="assets/images/icon-menu-close.svg" alt="">
-          <ul>
+          <div class="close_ctn">
+            <img id="close" class="close_btn" src="assets/images/icon-menu-close.svg" alt="">
+          </div>
+          <ul class="dropdown_items">
             <li><a href="#">Home</a></li>
             <li><a href="#">New</a></li>
             <li><a href="#">Popular</a></li>
@@ -40,40 +41,46 @@
   </nav>
 
   <section>
-    <div>
-      <img src="assets/images/image-web-3-mobile.jpg" alt="">
-    </div>
 
     <div>
-      <h1 class="header">The Bright Future of Web 3.0?</h1>
-      <p class="intro_text">
-        We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-        But is it really fulfilling its promise?
-      </p>
-      <button class="read_btn">
-        Read more
-      </button>
-    </div>
-  </section>
+      <div class="main_img">
+        <img class="img1" src="assets/images/image-web-3-mobile.jpg" alt="">
+      </div>
 
-  <section>
-  
-    <h1>New</h1>
-    <div>
-      <h3>Hydrogen VS Electric Cars</h3>
-      <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
-    </div>
-    
-    <div>
-      <h3>The Downsides of AI Artistry</h3>
-      <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      <div class="desktop_img">
+        <img class="img2" src="assets/images/image-web-3-mobile.jpg" alt="">
+      </div>
+
+      <div>
+        <h1 class="header">The Bright Future of Web 3.0?</h1>
+        <p class="intro_text">
+          We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+          But is it really fulfilling its promise?
+        </p>
+        <button class="read_btn">
+          READ MORE
+        </button>
+      </div>
     </div>
 
-    <div>
-      <h3>Is VC Funding Drying Up?</h3>
-      <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+    <div class="question_ctn">
+      <h1 class="new_text">New</h1>
+      <div class="questions">
+        <h3>Hydrogen VS Electric Cars</h3>
+        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </div>
+      
+      <div class="questions">
+        <h3>The Downsides of AI Artistry</h3>
+        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      </div>
+
+      <div class="questions">
+        <h3>Is VC Funding Drying Up?</h3>
+        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </div>
     </div>
-  
+
   </section>
 
   <section>
@@ -111,7 +118,9 @@
       </div>
     </div>
   </section>    
+  
   <br>
+  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.github.com/Hazel-A1" target="_blank">Hazel Codes</a>.

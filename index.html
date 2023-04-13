@@ -23,7 +23,7 @@
 
       <div class="secondary_nav">
         <img id="open" class="open_btn" src="assets/images/icon-menu.svg" alt="">
-        <div class="dropdown_nav">
+        <div id="dropdown" class="dropdown_nav">
           <div class="close_ctn">
             <img id="close" class="close_btn" src="assets/images/icon-menu-close.svg" alt="">
           </div>
@@ -35,14 +35,21 @@
             <li><a href="#">Categories</a></li>
           </ul>
         </div>
+        <ul class="dropdown_items desktop_menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
       </div>
 
     </div>
   </nav>
 
-  <section>
+  <section class="main_body">
 
-    <div>
+    <div class="body1">
       <div class="main_img">
         <img class="img1" src="assets/images/image-web-3-mobile.jpg" alt="">
       </div>
@@ -51,15 +58,22 @@
         <img class="img2" src="assets/images/image-web-3-mobile.jpg" alt="">
       </div>
 
-      <div>
-        <h1 class="header">The Bright Future of Web 3.0?</h1>
-        <p class="intro_text">
-          We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-          But is it really fulfilling its promise?
-        </p>
-        <button class="read_btn">
-          READ MORE
-        </button>
+      <div class="box1">
+        
+          <div class="header_ctn">
+            <h1 class="header">The Bright Future of Web 3.0?</h1>
+          </div>
+
+          <div class="intro_ctn">
+            <p class="intro_text">
+              We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?
+            </p>
+            <button class="read_btn">
+              READ MORE
+            </button>
+          </div>
+        
       </div>
     </div>
 
@@ -80,38 +94,39 @@
         <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
       </div>
     </div>
+  
 
   </section>
 
-  <section>
+  <section class="picks_ctn">
 
-    <div>
-      <div>
+    <div class="top_picks">
+      <div class="picks_img_ctn">
         <img src="assets/images/image-retro-pcs.jpg" alt="">
       </div>
-      <div>
+      <div class="picks_text">
         <h1>01</h1>
         <h3>Reviving Retro PCs</h3>
         <p>What happens when old PCs are given modern upgrades?</p>
       </div>
     </div>
 
-    <div>
-      <div>
+    <div class="top_picks">
+      <div class="picks_img_ctn">
         <img src="assets/images/image-top-laptops.jpg" alt="">
       </div>
-      <div>
+      <div class="picks_text">
         <h1>02</h1>
         <h3>Top 10 Laptops of 2022</h3>
         <p>Our best picks for various needs and budgets.</p>
       </div>
     </div>
 
-    <div>
-      <div>
+    <div class="top_picks">
+      <div class="picks_img_ctn">
         <img src="assets/images/image-gaming-growth.jpg" alt="">
       </div>
-      <div>
+      <div class="picks_text">
         <h1>03</h1>
         <h3>The Growth of Gaming</h3>
         <p>How the pandemic has sparked fresh opportunities.</p>
@@ -126,5 +141,7 @@
     Coded by <a href="https://www.github.com/Hazel-A1" target="_blank">Hazel Codes</a>.
   </div>
   <br><br>
+
+  <script src="index.js"></script>
 </body>
 </html>

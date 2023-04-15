@@ -36,21 +36,25 @@ nav {
     align-items: center;
 }
 
-.primary_nav {
-    /* border: 1px solid yellow; */
-}
-
-.secondary_nav {
-    /* border: 1px solid red; */
-}
-
 .dropdown_nav {
     /* display: none; */
     position: fixed;
     top: 0;
     right: -100%;
-    width: 68%;
+    /* width: 68%; */
+    /* border: 1px solid black; */
+    width: 100%;
     height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    transition: .4s ease;
+}
+
+.nav {
+    position: absolute;
+    height: 100%;
+    /* border: 1px solid black; */
+    width: 68%;
+    right: 0;
     background: var(--Neutral-Off-white);
 }
 
@@ -68,7 +72,7 @@ nav {
 
 .dropdown_items {
     /* border: 1px solid black; */
-    margin-top: 60px;
+    margin-top: 135px;
 }
 
 .dropdown_items li {
@@ -289,11 +293,6 @@ nav {
         display: grid;
         grid-auto-flow: column;
         margin-top: 45px;
-    }
-
-    .box1 div {
-        /* width: 40%; */
-        /* border: 1px solid black; */
     }
 
     .question_ctn {
